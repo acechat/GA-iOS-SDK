@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CDC9BB7418E61C2400EBFA86 /* Release */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CDC9BB7718E61C2400EBFA86 /* Build configuration list for PBXAggregateTarget "Release" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CDC9BB7B18E61C2F00EBFA86 /* PBXTargetDependency */,
+				CDC9BB7918E61C2C00EBFA86 /* PBXTargetDependency */,
+			);
+			name = Release;
+			productName = Release;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		CD00F36A18C66F3900EFB2AB /* GAEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CD00F36918C66F3900EFB2AB /* GAEvents.m */; };
+		CD00F36E18C89F2500EFB2AB /* GASender.m in Sources */ = {isa = PBXBuildFile; fileRef = CD00F36D18C89F2500EFB2AB /* GASender.m */; };
+		CD0C8A2418DBB3EB00A93503 /* GameAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92E8E18A947AE0097D27C /* GameAnalytics.m */; };
+		CD4D001A18B291AA00E033D9 /* GAReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4D001918B291A900E033D9 /* GAReachability.m */; };
+		CDC92E8818A947AE0097D27C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92E8718A947AE0097D27C /* Foundation.framework */; };
+		CDC92E8D18A947AE0097D27C /* GameAnalytics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDC92E8C18A947AE0097D27C /* GameAnalytics.h */; };
+		CDC92E8F18A947AE0097D27C /* GameAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92E8E18A947AE0097D27C /* GameAnalytics.m */; };
+		CDC92E9618A947AE0097D27C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92E9518A947AE0097D27C /* XCTest.framework */; };
+		CDC92E9718A947AE0097D27C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92E8718A947AE0097D27C /* Foundation.framework */; };
+		CDC92E9918A947AE0097D27C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92E9818A947AE0097D27C /* UIKit.framework */; };
+		CDC92E9C18A947AE0097D27C /* libGameAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92E8418A947AE0097D27C /* libGameAnalytics.a */; };
+		CDC92EA218A947AE0097D27C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC92EA018A947AE0097D27C /* InfoPlist.strings */; };
+		CDC92EA418A947AE0097D27C /* GameAnalyticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92EA318A947AE0097D27C /* GameAnalyticsTests.m */; };
+		CDC92F0518A9545D0097D27C /* GACoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92EFE18A9545D0097D27C /* GACoreDataController.m */; };
+		CDC92F0618A9545D0097D27C /* GACoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92EFE18A9545D0097D27C /* GACoreDataController.m */; };
+		CDC92F0718A9545D0097D27C /* GACoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92F0018A9545D0097D27C /* GACoreDataHelper.m */; };
+		CDC92F0818A9545D0097D27C /* GACoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92F0018A9545D0097D27C /* GACoreDataHelper.m */; };
+		CDC92F0B18A9545D0097D27C /* NSManagedObjectContext+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92F0418A9545D0097D27C /* NSManagedObjectContext+Save.m */; };
+		CDC92F0C18A9545D0097D27C /* NSManagedObjectContext+Save.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92F0418A9545D0097D27C /* NSManagedObjectContext+Save.m */; };
+		CDC92F0E18A954BB0097D27C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92F0D18A954BB0097D27C /* CoreData.framework */; };
+		CDC92F8E18A97C750097D27C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92F8D18A97C750097D27C /* CoreFoundation.framework */; };
+		CDC92F9418A97C750097D27C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC92F9218A97C750097D27C /* InfoPlist.strings */; };
+		CDC92FB718AA46D90097D27C /* GABusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FB618AA46D90097D27C /* GABusiness.m */; };
+		CDC92FB818AA46D90097D27C /* GABusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FB618AA46D90097D27C /* GABusiness.m */; };
+		CDC92FBB18AA46DA0097D27C /* GADesign.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FBA18AA46DA0097D27C /* GADesign.m */; };
+		CDC92FBC18AA46DA0097D27C /* GADesign.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FBA18AA46DA0097D27C /* GADesign.m */; };
+		CDC92FBF18AA46DA0097D27C /* GAError.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FBE18AA46DA0097D27C /* GAError.m */; };
+		CDC92FC018AA46DA0097D27C /* GAError.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FBE18AA46DA0097D27C /* GAError.m */; };
+		CDC92FC718AA46DA0097D27C /* GAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FC618AA46DA0097D27C /* GAUser.m */; };
+		CDC92FC818AA46DA0097D27C /* GAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FC618AA46DA0097D27C /* GAUser.m */; };
+		CDC92FDB18AA7CB50097D27C /* GALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FDA18AA7CB50097D27C /* GALogger.m */; };
+		CDC92FDC18AA7CB50097D27C /* GALogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FDA18AA7CB50097D27C /* GALogger.m */; };
+		CDC92FE018AA91790097D27C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92FDF18AA91790097D27C /* UIKit.framework */; };
+		CDC92FE718AAA31B0097D27C /* NSObject+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FE618AAA31B0097D27C /* NSObject+MD5.m */; };
+		CDC92FE818AAA31B0097D27C /* NSObject+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FE618AAA31B0097D27C /* NSObject+MD5.m */; };
+		CDC92FF118AAB2700097D27C /* GABusiness+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FF018AAB2700097D27C /* GABusiness+Queries.m */; };
+		CDC92FF218AAB2700097D27C /* GABusiness+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FF018AAB2700097D27C /* GABusiness+Queries.m */; };
+		CDC92FF818AABA430097D27C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC92FF718AABA430097D27C /* Security.framework */; };
+		CDC92FFB18AAC1610097D27C /* GABatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FFA18AAC1610097D27C /* GABatchController.m */; };
+		CDC92FFC18AAC1610097D27C /* GABatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC92FFA18AAC1610097D27C /* GABatchController.m */; };
+		CDC9300318AAC6650097D27C /* GAEvents+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300218AAC6650097D27C /* GAEvents+Queries.m */; };
+		CDC9300418AAC6650097D27C /* GAEvents+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300218AAC6650097D27C /* GAEvents+Queries.m */; };
+		CDC9300718AEB3540097D27C /* GADesign+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300618AEB3540097D27C /* GADesign+Queries.m */; };
+		CDC9300818AEB3540097D27C /* GADesign+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300618AEB3540097D27C /* GADesign+Queries.m */; };
+		CDC9300B18AEB3790097D27C /* GAUser+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300A18AEB3790097D27C /* GAUser+Queries.m */; };
+		CDC9300C18AEB3790097D27C /* GAUser+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300A18AEB3790097D27C /* GAUser+Queries.m */; };
+		CDC9300F18AEB3900097D27C /* GAError+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300E18AEB3900097D27C /* GAError+Queries.m */; };
+		CDC9301018AEB3900097D27C /* GAError+Queries.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC9300E18AEB3900097D27C /* GAError+Queries.m */; };
+		CDEB803A18E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDEB803718E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld */; };
+		CDEB803B18E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDEB803718E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld */; };
+		CDEB803C18E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDEB803718E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC92E9A18A947AE0097D27C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC92E7C18A947AE0097D27C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC92E8318A947AE0097D27C;
+			remoteInfo = GameAnalytics;
+		};
+		CDC9BB7818E61C2C00EBFA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC92E7C18A947AE0097D27C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC92E8318A947AE0097D27C;
+			remoteInfo = GameAnalytics;
+		};
+		CDC9BB7A18E61C2F00EBFA86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC92E7C18A947AE0097D27C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC92F8B18A97C750097D27C;
+			remoteInfo = GAResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDC92E8218A947AE0097D27C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CDC92E8D18A947AE0097D27C /* GameAnalytics.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD00F36818C66F3900EFB2AB /* GAEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAEvents.h; path = Models/GAEvents.h; sourceTree = "<group>"; };
+		CD00F36918C66F3900EFB2AB /* GAEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GAEvents.m; path = Models/GAEvents.m; sourceTree = "<group>"; };
+		CD00F36C18C89F2500EFB2AB /* GASender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GASender.h; sourceTree = "<group>"; };
+		CD00F36D18C89F2500EFB2AB /* GASender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GASender.m; sourceTree = "<group>"; };
+		CD00F37018C91FC300EFB2AB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		CD4D001818B291A900E033D9 /* GAReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAReachability.h; sourceTree = "<group>"; };
+		CD4D001918B291A900E033D9 /* GAReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAReachability.m; sourceTree = "<group>"; };
+		CDC92E8418A947AE0097D27C /* libGameAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGameAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC92E8718A947AE0097D27C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDC92E8B18A947AE0097D27C /* GameAnalytics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameAnalytics-Prefix.pch"; sourceTree = "<group>"; };
+		CDC92E8C18A947AE0097D27C /* GameAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameAnalytics.h; sourceTree = "<group>"; };
+		CDC92E8E18A947AE0097D27C /* GameAnalytics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameAnalytics.m; sourceTree = "<group>"; };
+		CDC92E9418A947AE0097D27C /* GameAnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameAnalyticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC92E9518A947AE0097D27C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDC92E9818A947AE0097D27C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CDC92E9F18A947AE0097D27C /* GameAnalyticsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameAnalyticsTests-Info.plist"; sourceTree = "<group>"; };
+		CDC92EA118A947AE0097D27C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC92EA318A947AE0097D27C /* GameAnalyticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameAnalyticsTests.m; sourceTree = "<group>"; };
+		CDC92EFD18A9545D0097D27C /* GACoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACoreDataController.h; sourceTree = "<group>"; };
+		CDC92EFE18A9545D0097D27C /* GACoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACoreDataController.m; sourceTree = "<group>"; };
+		CDC92EFF18A9545D0097D27C /* GACoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GACoreDataHelper.h; sourceTree = "<group>"; };
+		CDC92F0018A9545D0097D27C /* GACoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GACoreDataHelper.m; sourceTree = "<group>"; };
+		CDC92F0318A9545D0097D27C /* NSManagedObjectContext+Save.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+Save.h"; sourceTree = "<group>"; };
+		CDC92F0418A9545D0097D27C /* NSManagedObjectContext+Save.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+Save.m"; sourceTree = "<group>"; };
+		CDC92F0D18A954BB0097D27C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CDC92F8C18A97C750097D27C /* GAResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC92F8D18A97C750097D27C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		CDC92F9118A97C750097D27C /* GAResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GAResources-Info.plist"; sourceTree = "<group>"; };
+		CDC92F9318A97C750097D27C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC92F9518A97C750097D27C /* GAResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GAResources-Prefix.pch"; sourceTree = "<group>"; };
+		CDC92FB518AA46D90097D27C /* GABusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GABusiness.h; path = Models/GABusiness.h; sourceTree = "<group>"; };
+		CDC92FB618AA46D90097D27C /* GABusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GABusiness.m; path = Models/GABusiness.m; sourceTree = "<group>"; };
+		CDC92FB918AA46DA0097D27C /* GADesign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADesign.h; path = Models/GADesign.h; sourceTree = "<group>"; };
+		CDC92FBA18AA46DA0097D27C /* GADesign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GADesign.m; path = Models/GADesign.m; sourceTree = "<group>"; };
+		CDC92FBD18AA46DA0097D27C /* GAError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAError.h; path = Models/GAError.h; sourceTree = "<group>"; };
+		CDC92FBE18AA46DA0097D27C /* GAError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GAError.m; path = Models/GAError.m; sourceTree = "<group>"; };
+		CDC92FC518AA46DA0097D27C /* GAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAUser.h; path = Models/GAUser.h; sourceTree = "<group>"; };
+		CDC92FC618AA46DA0097D27C /* GAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GAUser.m; path = Models/GAUser.m; sourceTree = "<group>"; };
+		CDC92FD918AA7CB50097D27C /* GALogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GALogger.h; sourceTree = "<group>"; };
+		CDC92FDA18AA7CB50097D27C /* GALogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GALogger.m; sourceTree = "<group>"; };
+		CDC92FDD18AA91460097D27C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDC92FDF18AA91790097D27C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDC92FE118AA93F70097D27C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CDC92FE518AAA31B0097D27C /* NSObject+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MD5.h"; sourceTree = "<group>"; };
+		CDC92FE618AAA31B0097D27C /* NSObject+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MD5.m"; sourceTree = "<group>"; };
+		CDC92FE918AAA35F0097D27C /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
+		CDC92FEF18AAB2700097D27C /* GABusiness+Queries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GABusiness+Queries.h"; path = "Models/GABusiness+Queries.h"; sourceTree = "<group>"; };
+		CDC92FF018AAB2700097D27C /* GABusiness+Queries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GABusiness+Queries.m"; path = "Models/GABusiness+Queries.m"; sourceTree = "<group>"; };
+		CDC92FF718AABA430097D27C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CDC92FF918AAC1610097D27C /* GABatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GABatchController.h; sourceTree = "<group>"; };
+		CDC92FFA18AAC1610097D27C /* GABatchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GABatchController.m; sourceTree = "<group>"; };
+		CDC9300118AAC6650097D27C /* GAEvents+Queries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GAEvents+Queries.h"; sourceTree = "<group>"; };
+		CDC9300218AAC6650097D27C /* GAEvents+Queries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GAEvents+Queries.m"; sourceTree = "<group>"; };
+		CDC9300518AEB3540097D27C /* GADesign+Queries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GADesign+Queries.h"; sourceTree = "<group>"; };
+		CDC9300618AEB3540097D27C /* GADesign+Queries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GADesign+Queries.m"; sourceTree = "<group>"; };
+		CDC9300918AEB3790097D27C /* GAUser+Queries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GAUser+Queries.h"; sourceTree = "<group>"; };
+		CDC9300A18AEB3790097D27C /* GAUser+Queries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GAUser+Queries.m"; sourceTree = "<group>"; };
+		CDC9300D18AEB3900097D27C /* GAError+Queries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GAError+Queries.h"; sourceTree = "<group>"; };
+		CDC9300E18AEB3900097D27C /* GAError+Queries.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GAError+Queries.m"; sourceTree = "<group>"; };
+		CDEB803818E4D4E3002C5A10 /* GameAnalytics_3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameAnalytics_3.xcdatamodel; sourceTree = "<group>"; };
+		CDEB803918E4D4E3002C5A10 /* GameAnalytics_4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameAnalytics_4.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC92E8118A947AE0097D27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC92FF818AABA430097D27C /* Security.framework in Frameworks */,
+				CDC92FE018AA91790097D27C /* UIKit.framework in Frameworks */,
+				CDC92F0E18A954BB0097D27C /* CoreData.framework in Frameworks */,
+				CDC92E8818A947AE0097D27C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC92E9118A947AE0097D27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC92E9618A947AE0097D27C /* XCTest.framework in Frameworks */,
+				CDC92E9918A947AE0097D27C /* UIKit.framework in Frameworks */,
+				CDC92E9C18A947AE0097D27C /* libGameAnalytics.a in Frameworks */,
+				CDC92E9718A947AE0097D27C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC92F8918A97C750097D27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC92F8E18A97C750097D27C /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6763FC18AFDC77004D3355 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92EFD18A9545D0097D27C /* GACoreDataController.h */,
+				CDC92EFE18A9545D0097D27C /* GACoreDataController.m */,
+				CDC92EFF18A9545D0097D27C /* GACoreDataHelper.h */,
+				CDC92F0018A9545D0097D27C /* GACoreDataHelper.m */,
+				CDC92F0318A9545D0097D27C /* NSManagedObjectContext+Save.h */,
+				CDC92F0418A9545D0097D27C /* NSManagedObjectContext+Save.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		CDC92E7B18A947AE0097D27C = {
+			isa = PBXGroup;
+			children = (
+				CD00F37018C91FC300EFB2AB /* README.md */,
+				CDC92E8918A947AE0097D27C /* GameAnalytics */,
+				CDC92E9D18A947AE0097D27C /* GameAnalyticsTests */,
+				CDC92F8F18A97C750097D27C /* GAResources */,
+				CDC92E8618A947AE0097D27C /* Frameworks */,
+				CDC92E8518A947AE0097D27C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC92E8518A947AE0097D27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92E8418A947AE0097D27C /* libGameAnalytics.a */,
+				CDC92E9418A947AE0097D27C /* GameAnalyticsTests.xctest */,
+				CDC92F8C18A97C750097D27C /* GAResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC92E8618A947AE0097D27C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92FF718AABA430097D27C /* Security.framework */,
+				CDC92FE918AAA35F0097D27C /* libcommonCrypto.dylib */,
+				CDC92FE118AA93F70097D27C /* AdSupport.framework */,
+				CDC92FDF18AA91790097D27C /* UIKit.framework */,
+				CDC92FDD18AA91460097D27C /* SystemConfiguration.framework */,
+				CDC92F0D18A954BB0097D27C /* CoreData.framework */,
+				CDC92E8718A947AE0097D27C /* Foundation.framework */,
+				CDC92E9518A947AE0097D27C /* XCTest.framework */,
+				CDC92E9818A947AE0097D27C /* UIKit.framework */,
+				CDC92F8D18A97C750097D27C /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC92E8918A947AE0097D27C /* GameAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92E8C18A947AE0097D27C /* GameAnalytics.h */,
+				CDC92E8E18A947AE0097D27C /* GameAnalytics.m */,
+				CDC92FF918AAC1610097D27C /* GABatchController.h */,
+				CDC92FFA18AAC1610097D27C /* GABatchController.m */,
+				CD00F36C18C89F2500EFB2AB /* GASender.h */,
+				CD00F36D18C89F2500EFB2AB /* GASender.m */,
+				CDC92FD918AA7CB50097D27C /* GALogger.h */,
+				CDC92FDA18AA7CB50097D27C /* GALogger.m */,
+				CD4D001818B291A900E033D9 /* GAReachability.h */,
+				CD4D001918B291A900E033D9 /* GAReachability.m */,
+				CDC92E8A18A947AE0097D27C /* Supporting Files */,
+			);
+			path = GameAnalytics;
+			sourceTree = "<group>";
+		};
+		CDC92E8A18A947AE0097D27C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92E8B18A947AE0097D27C /* GameAnalytics-Prefix.pch */,
+				CDC92FE518AAA31B0097D27C /* NSObject+MD5.h */,
+				CDC92FE618AAA31B0097D27C /* NSObject+MD5.m */,
+				CDC92F0F18A954E50097D27C /* CoreData */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC92E9D18A947AE0097D27C /* GameAnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92EA318A947AE0097D27C /* GameAnalyticsTests.m */,
+				CDC92E9E18A947AE0097D27C /* Supporting Files */,
+			);
+			path = GameAnalyticsTests;
+			sourceTree = "<group>";
+		};
+		CDC92E9E18A947AE0097D27C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92E9F18A947AE0097D27C /* GameAnalyticsTests-Info.plist */,
+				CDC92EA018A947AE0097D27C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC92F0F18A954E50097D27C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CDEB803718E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld */,
+				CDC92FB418AA46AE0097D27C /* Models */,
+				CD6763FC18AFDC77004D3355 /* Helpers */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		CDC92F8F18A97C750097D27C /* GAResources */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92F9018A97C750097D27C /* Supporting Files */,
+			);
+			path = GAResources;
+			sourceTree = "<group>";
+		};
+		CDC92F9018A97C750097D27C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC92F9118A97C750097D27C /* GAResources-Info.plist */,
+				CDC92F9218A97C750097D27C /* InfoPlist.strings */,
+				CDC92F9518A97C750097D27C /* GAResources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC92FB418AA46AE0097D27C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD00F36818C66F3900EFB2AB /* GAEvents.h */,
+				CD00F36918C66F3900EFB2AB /* GAEvents.m */,
+				CDC9300118AAC6650097D27C /* GAEvents+Queries.h */,
+				CDC9300218AAC6650097D27C /* GAEvents+Queries.m */,
+				CDC92FC518AA46DA0097D27C /* GAUser.h */,
+				CDC92FC618AA46DA0097D27C /* GAUser.m */,
+				CDC9300918AEB3790097D27C /* GAUser+Queries.h */,
+				CDC9300A18AEB3790097D27C /* GAUser+Queries.m */,
+				CDC92FBD18AA46DA0097D27C /* GAError.h */,
+				CDC92FBE18AA46DA0097D27C /* GAError.m */,
+				CDC9300D18AEB3900097D27C /* GAError+Queries.h */,
+				CDC9300E18AEB3900097D27C /* GAError+Queries.m */,
+				CDC92FB918AA46DA0097D27C /* GADesign.h */,
+				CDC92FBA18AA46DA0097D27C /* GADesign.m */,
+				CDC9300518AEB3540097D27C /* GADesign+Queries.h */,
+				CDC9300618AEB3540097D27C /* GADesign+Queries.m */,
+				CDC92FB518AA46D90097D27C /* GABusiness.h */,
+				CDC92FB618AA46D90097D27C /* GABusiness.m */,
+				CDC92FEF18AAB2700097D27C /* GABusiness+Queries.h */,
+				CDC92FF018AAB2700097D27C /* GABusiness+Queries.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC92E8318A947AE0097D27C /* GameAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC92EA718A947AE0097D27C /* Build configuration list for PBXNativeTarget "GameAnalytics" */;
+			buildPhases = (
+				CDC92E8018A947AE0097D27C /* Sources */,
+				CDC92E8118A947AE0097D27C /* Frameworks */,
+				CDC92E8218A947AE0097D27C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameAnalytics;
+			productName = GameAnalytics;
+			productReference = CDC92E8418A947AE0097D27C /* libGameAnalytics.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CDC92E9318A947AE0097D27C /* GameAnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC92EAA18A947AE0097D27C /* Build configuration list for PBXNativeTarget "GameAnalyticsTests" */;
+			buildPhases = (
+				CDC92E9018A947AE0097D27C /* Sources */,
+				CDC92E9118A947AE0097D27C /* Frameworks */,
+				CDC92E9218A947AE0097D27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC92E9B18A947AE0097D27C /* PBXTargetDependency */,
+			);
+			name = GameAnalyticsTests;
+			productName = GameAnalyticsTests;
+			productReference = CDC92E9418A947AE0097D27C /* GameAnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDC92F8B18A97C750097D27C /* GAResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC92F9618A97C750097D27C /* Build configuration list for PBXNativeTarget "GAResources" */;
+			buildPhases = (
+				CDC92F8818A97C750097D27C /* Sources */,
+				CDC92F8918A97C750097D27C /* Frameworks */,
+				CDC92F8A18A97C750097D27C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GAResources;
+			productName = GAResources;
+			productReference = CDC92F8C18A97C750097D27C /* GAResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC92E7C18A947AE0097D27C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rick Chapman";
+			};
+			buildConfigurationList = CDC92E7F18A947AE0097D27C /* Build configuration list for PBXProject "GameAnalytics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDC92E7B18A947AE0097D27C;
+			productRefGroup = CDC92E8518A947AE0097D27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC92E8318A947AE0097D27C /* GameAnalytics */,
+				CDC92E9318A947AE0097D27C /* GameAnalyticsTests */,
+				CDC92F8B18A97C750097D27C /* GAResources */,
+				CDC9BB7418E61C2400EBFA86 /* Release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC92E9218A947AE0097D27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC92EA218A947AE0097D27C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC92F8A18A97C750097D27C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC92F9418A97C750097D27C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC92E8018A947AE0097D27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC92F0B18A9545D0097D27C /* NSManagedObjectContext+Save.m in Sources */,
+				CDC92FDB18AA7CB50097D27C /* GALogger.m in Sources */,
+				CDC9300318AAC6650097D27C /* GAEvents+Queries.m in Sources */,
+				CDC9300B18AEB3790097D27C /* GAUser+Queries.m in Sources */,
+				CDC92F0718A9545D0097D27C /* GACoreDataHelper.m in Sources */,
+				CDC92FBF18AA46DA0097D27C /* GAError.m in Sources */,
+				CD00F36E18C89F2500EFB2AB /* GASender.m in Sources */,
+				CD00F36A18C66F3900EFB2AB /* GAEvents.m in Sources */,
+				CDC92FB718AA46D90097D27C /* GABusiness.m in Sources */,
+				CDC92F0518A9545D0097D27C /* GACoreDataController.m in Sources */,
+				CDEB803A18E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld in Sources */,
+				CDC9300F18AEB3900097D27C /* GAError+Queries.m in Sources */,
+				CDC92FC718AA46DA0097D27C /* GAUser.m in Sources */,
+				CD4D001A18B291AA00E033D9 /* GAReachability.m in Sources */,
+				CDC92FE718AAA31B0097D27C /* NSObject+MD5.m in Sources */,
+				CDC92E8F18A947AE0097D27C /* GameAnalytics.m in Sources */,
+				CDC9300718AEB3540097D27C /* GADesign+Queries.m in Sources */,
+				CDC92FFB18AAC1610097D27C /* GABatchController.m in Sources */,
+				CDC92FF118AAB2700097D27C /* GABusiness+Queries.m in Sources */,
+				CDC92FBB18AA46DA0097D27C /* GADesign.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC92E9018A947AE0097D27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEB803B18E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld in Sources */,
+				CDC92F0C18A9545D0097D27C /* NSManagedObjectContext+Save.m in Sources */,
+				CDC92FDC18AA7CB50097D27C /* GALogger.m in Sources */,
+				CDC9300418AAC6650097D27C /* GAEvents+Queries.m in Sources */,
+				CDC9300C18AEB3790097D27C /* GAUser+Queries.m in Sources */,
+				CDC92F0818A9545D0097D27C /* GACoreDataHelper.m in Sources */,
+				CDC92FC018AA46DA0097D27C /* GAError.m in Sources */,
+				CD0C8A2418DBB3EB00A93503 /* GameAnalytics.m in Sources */,
+				CDC92FB818AA46D90097D27C /* GABusiness.m in Sources */,
+				CDC92F0618A9545D0097D27C /* GACoreDataController.m in Sources */,
+				CDC9301018AEB3900097D27C /* GAError+Queries.m in Sources */,
+				CDC92FC818AA46DA0097D27C /* GAUser.m in Sources */,
+				CDC92FE818AAA31B0097D27C /* NSObject+MD5.m in Sources */,
+				CDC92EA418A947AE0097D27C /* GameAnalyticsTests.m in Sources */,
+				CDC9300818AEB3540097D27C /* GADesign+Queries.m in Sources */,
+				CDC92FFC18AAC1610097D27C /* GABatchController.m in Sources */,
+				CDC92FF218AAB2700097D27C /* GABusiness+Queries.m in Sources */,
+				CDC92FBC18AA46DA0097D27C /* GADesign.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC92F8818A97C750097D27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEB803C18E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC92E9B18A947AE0097D27C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC92E8318A947AE0097D27C /* GameAnalytics */;
+			targetProxy = CDC92E9A18A947AE0097D27C /* PBXContainerItemProxy */;
+		};
+		CDC9BB7918E61C2C00EBFA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC92E8318A947AE0097D27C /* GameAnalytics */;
+			targetProxy = CDC9BB7818E61C2C00EBFA86 /* PBXContainerItemProxy */;
+		};
+		CDC9BB7B18E61C2F00EBFA86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC92F8B18A97C750097D27C /* GAResources */;
+			targetProxy = CDC9BB7A18E61C2F00EBFA86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDC92EA018A947AE0097D27C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC92EA118A947AE0097D27C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDC92F9218A97C750097D27C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC92F9318A97C750097D27C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC92EA518A947AE0097D27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDC92EA618A947AE0097D27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC92EA818A947AE0097D27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GameAnalytics.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameAnalytics/GameAnalytics-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CDC92EA918A947AE0097D27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GameAnalytics.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameAnalytics/GameAnalytics-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CDC92EAB18A947AE0097D27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameAnalytics/GameAnalytics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GameAnalyticsTests/GameAnalyticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDC92EAC18A947AE0097D27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameAnalytics/GameAnalytics-Prefix.pch";
+				INFOPLIST_FILE = "GameAnalyticsTests/GameAnalyticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		CDC92F9718A97C750097D27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAResources/GAResources-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GAResources/GAResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CDC92F9818A97C750097D27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GAResources/GAResources-Prefix.pch";
+				INFOPLIST_FILE = "GAResources/GAResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CDC9BB7518E61C2400EBFA86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDC9BB7618E61C2400EBFA86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC92E7F18A947AE0097D27C /* Build configuration list for PBXProject "GameAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC92EA518A947AE0097D27C /* Debug */,
+				CDC92EA618A947AE0097D27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC92EA718A947AE0097D27C /* Build configuration list for PBXNativeTarget "GameAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC92EA818A947AE0097D27C /* Debug */,
+				CDC92EA918A947AE0097D27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC92EAA18A947AE0097D27C /* Build configuration list for PBXNativeTarget "GameAnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC92EAB18A947AE0097D27C /* Debug */,
+				CDC92EAC18A947AE0097D27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC92F9618A97C750097D27C /* Build configuration list for PBXNativeTarget "GAResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC92F9718A97C750097D27C /* Debug */,
+				CDC92F9818A97C750097D27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC9BB7718E61C2400EBFA86 /* Build configuration list for PBXAggregateTarget "Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC9BB7518E61C2400EBFA86 /* Debug */,
+				CDC9BB7618E61C2400EBFA86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDEB803718E4D4E3002C5A10 /* GameAnalytics1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDEB803818E4D4E3002C5A10 /* GameAnalytics_3.xcdatamodel */,
+				CDEB803918E4D4E3002C5A10 /* GameAnalytics_4.xcdatamodel */,
+			);
+			currentVersion = CDEB803918E4D4E3002C5A10 /* GameAnalytics_4.xcdatamodel */;
+			path = GameAnalytics1.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDC92E7C18A947AE0097D27C /* Project object */;
+}

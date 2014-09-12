@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5063" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="GABusiness" representedClassName="GABusiness" parentEntity="GAEvents" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GADesign" representedClassName="GADesign" parentEntity="GAEvents" syncable="YES">
+        <attribute name="value" optional="YES" attributeType="Float" syncable="YES"/>
+    </entity>
+    <entity name="GAError" representedClassName="GAError" parentEntity="GAEvents" syncable="YES">
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="severity" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GAEvents" representedClassName="GAEvents" syncable="YES">
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="build" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventIdx" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="eventType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eventTypeID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="gameKey" optional="YES" attributeType="String" defaultValueString="default_game_key" syncable="YES"/>
+        <attribute name="secretKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sessionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="x" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="y" optional="YES" attributeType="Float" syncable="YES"/>
+        <attribute name="z" optional="YES" attributeType="Float" syncable="YES"/>
+    </entity>
+    <entity name="GAUser" representedClassName="GAUser" parentEntity="GAEvents" syncable="YES">
+        <attribute name="birthYear" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="device" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" maxValueString="1" syncable="YES"/>
+        <attribute name="installAd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="installAdgroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="installCampaign" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="installKeyword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="installPublisher" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="installSite" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iosID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="osMajor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="osMinor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="platform" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sdkVersion" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="GABusiness" positionX="-3519" positionY="-10189" width="128" height="73"/>
+        <element name="GADesign" positionX="-3134" positionY="-9778" width="128" height="58"/>
+        <element name="GAError" positionX="-3134" positionY="-10171" width="128" height="73"/>
+        <element name="GAEvents" positionX="-3305" positionY="-10045" width="128" height="253"/>
+        <element name="GAUser" positionX="-3501" positionY="-9774" width="128" height="268"/>
+    </elements>
+</model>
