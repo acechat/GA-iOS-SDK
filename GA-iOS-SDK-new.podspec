@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name             = "GA-iOS-SDK-new"
-  s.version          = "1.0.1"
-  s.homepage         = "https://github.com/GameAnalytics/GA-iOS-SDK-new"
+  s.name             = "GA-iOS-SDK"
+  s.version          = "1.0.2"
+  s.homepage         = "https://github.com/GameAnalytics/GA-iOS-SDK"
   s.author           = { "GameAnalytics" => "contact@gameanalytics.com" }
-  s.summary          = "The new GameAnalytics REST API SDK for iOS"
+  s.summary          = "GameAnalytics SDK for iOS"
   s.social_media_url = "https://twitter.com/gameanalytics"
 
-  s.source           = { :git => "https://github.com/GameAnalytics/GA-iOS-SDK-new.git", :tag => "v#{s.version}" }
+  s.source           = { :git => "https://github.com/GameAnalytics/GA-iOS-SDK.git", :tag => "v#{s.version}" }
   s.source_files  = "Library/ios\ #{s.version}/*.h"
   s.vendored_libraries = "Library/ios\ #{s.version}/*.a"
   s.library = "GameAnalytics_#{s.version}", 'z'

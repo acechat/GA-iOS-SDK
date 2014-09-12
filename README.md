@@ -1,4 +1,4 @@
-GA-iOS-SDK-new
+GA-iOS-SDK
 ==============
 
 **Changelog**
