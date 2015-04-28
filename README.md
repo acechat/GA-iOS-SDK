@@ -1,7 +1,7 @@
 GA-iOS-SDK
 ==============
 
-!! **deprecated** !!
+!! **deprecated** !!<br>
 New V2 version [here](https://github.com/GameAnalytics/GA-SDK-IOS).
 
 
