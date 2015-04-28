@@ -1,4 +1,5 @@
 Pod::Spec.new do |s|
+  s.deprecated_in_favor_of = 'GA-SDK-IOS'
   s.name             = "GA-iOS-SDK"
   s.version          = "1.0.2"
   s.homepage         = "https://github.com/GameAnalytics/GA-iOS-SDK"
