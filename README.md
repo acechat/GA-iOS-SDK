@@ -1,9 +1,13 @@
-GA-iOS-SDK
+> :information_source:<br>
+> This SDK is implementing the **V1 API** version of GameAnalytics.<br>
+> The **V2 API** version can be found [here](https://github.com/GameAnalytics/GA-SDK-IOS).<br>
+> It adds features like progression, validated purchases and virtual currency tracking.<br>
+> The [SDK update FAQ](http://www.gameanalytics.com/docs/sdk-update-faq/) contain updated information about future V2 SDK releases.
+
+<br>
+
+GA-iOS-SDK (V1 API)
 ==============
-
-!! **deprecated** !!<br>
-New V2 version [here](https://github.com/GameAnalytics/GA-SDK-IOS).
-
 
 **Changelog**
 
